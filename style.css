@@ -1,0 +1,88 @@
+body{
+    background-image: url(/images/background.jpg);
+    color:rgb(143, 0, 172);
+    background-size: 100%;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+A{
+    color:rgb(143, 0, 172); 
+    text-decoration: none; 
+}
+.header-link:hover,
+.header-link:focus{
+color: rgb(228, 228, 228);
+}
+.header{
+    display: flex;
+    width: 100%;
+    background-color: rgba(255, 55, 228, 0.575);
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+li{
+    float: left;
+    margin-right: 5px;
+}
+.header-item{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.header-item:not(:last-child){
+    margin-right: 20px;
+}
+.menu{
+    margin-left: auto;
+}
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main{
+    text-align: justify;
+    display: flex;
+}
+.main-text{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.main-img{
+    text-align: center;
+}
+.answer{
+    margin: 0;
+    padding-left: 0;
+    list-style-position: outside;
+}
+.footer{
+    height: 50px;
+    margin-top: 20px;
+}
+* {box-sizing: border-box;} 
+.caption-border { 
+    width: 400px; 
+    margin: 50px auto 0; 
+    border: 5px solid #f005d177; 
+    background: rgba(195, 13, 240, 0.534); padding: 10px; 
+} 
+.caption-border img { 
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+} 
+.caption-border figcaption { 
+    padding: 10px; 
+    color:rgba(194, 13, 240, 0.747); 
+    background:#faa0ee7c; 
+    text-align: center; 
+    text-transform: uppercase; 
+}
+
+
